@@ -1,0 +1,1155 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+}
+
+.restaurant-name {
+    margin: 0;
+    font-size: 24px;
+    display: inline-block;
+    color: black;
+}
+
+.dot {
+    color: red;
+}
+
+#menu {
+    display: flex;
+    flex-grow: 1;
+}
+
+nav {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-left: 45px; /* Decrease the spacing by 15px */
+}
+
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f0f0f0;
+}
+
+.book-table-btn {
+    background-color: #FF0000;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.book-table-btn:hover {
+    background-color: #CC0000;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.home-section {
+    padding: 20px;
+    background-color: rgba(254, 165, 1, 1); /* Change to rgba(254, 165, 1, 1) */
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 50%;
+}
+
+.text h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.text p {
+    font-size: 16px;
+    color: #555;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+}
+
+.book-table-btn,
+.watch-video-btn {
+    background-color: #FF0000;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.book-table-btn:hover,
+.watch-video-btn:hover {
+    background-color: #CC0000;
+}
+
+/* Your existing CSS code */
+
+.book-table-btn,
+.watch-video-btn {
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.book-table-btn {
+    background-color: #FF0000;
+    color: white;
+}
+
+.book-table-btn:hover {
+    background-color: #CC0000;
+}
+
+.watch-video-btn {
+    background-color: transparent;
+    color: #FF0000;
+    border: 2px solid #FF0000;
+}
+
+.watch-video-btn:hover {
+    background-color: rgba(255, 0, 0, 0.2); /* Adjust the transparency as needed */
+}
+/* Your existing CSS code */
+
+.book-table-btn,
+.watch-video-btn {
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.book-table-btn {
+    background-color: #FF0000;
+    color: white;
+}
+
+.book-table-btn:hover {
+    background-color: #CC0000;
+}
+
+.watch-video-btn {
+    background-color: transparent;
+    color: #FF0000;
+    border: 2px solid transparent; /* Set border color to transparent */
+}
+
+.watch-video-btn:hover {
+    background-color: rgba(255, 0, 0, 0.2); /* Adjust the transparency as needed */
+    border-color: rgba(255, 0, 0, 0.2); /* Set border color to transparent with alpha */
+}
+/* Your existing CSS code */
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+}
+
+.book-table-btn,
+.watch-video-btn {
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 20px; /* Increase the spacing between buttons */
+}
+
+.book-table-btn {
+    background-color: #FF0000;
+    color: white;
+}
+
+.book-table-btn:hover {
+    background-color: #CC0000;
+}
+
+.watch-video-btn {
+    background-color: transparent;
+    color: #FF0000;
+    border: 2px solid transparent;
+}
+
+.watch-video-btn:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-color: rgba(255, 0, 0, 0.2);
+}
+/* Your existing CSS code */
+
+.about-section {
+    /* Add your styles for the about section container */
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-description {
+    /* Add your styles for the About Us description paragraph */
+}
+
+.about-learn-more {
+    color: black; /* Red color */
+}
+
+.about-us {
+    /* Add your styles for the About Us text in h1 */
+}
+
+/* Your existing CSS code */
+
+/* Your existing CSS code */
+
+.about-section {
+    /* Add your styles for the about section container */
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-description {
+    color: black; /* Red color for "About Us" */
+}
+
+.about-learn-more {
+    color: #000000; /* Black color for "Learn more" */
+}
+
+.about-red-text {
+    color: #FF0000; /* Red color for the text "About Us" in "Learn more About Us" */
+}
+
+/* Add the following styles to your existing CSS code */
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border-radius for rounded corners if desired */
+}
+
+.flex-item p {
+    text-align: center;
+    color: #333; /* Adjust text color as needed */
+}
+/* Add the following styles to your existing CSS code */
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.flex-item {
+    flex: 1;
+    text-align: center; /* Center text in the second flex item */
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border-radius for rounded corners if desired */
+}
+
+.flex-item p {
+    color: #333; /* Adjust text color as needed */
+}
+/* Add the following styles to your existing CSS code */
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+    
+}
+
+.flex-item {
+    flex: 1;
+    text-align: center; /* Center text in the second flex item */
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border-radius for rounded corners if desired */
+}
+
+/* Add the following styles to limit the width of the second image */
+.flex-item img:nth-child(2) {
+    max-width: 70%; /* Adjust the percentage to decrease the width */
+}
+/* Add text-align: justify to justify-align the text inside <p> */
+.flex-item p {
+    text-align: justify;
+}/* Add margin: 20px to create space around the paragraph */
+.flex-item p {
+    text-align: justify;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+
+/* Your existing CSS code */
+.about-section .flex-item img:nth-child(2) {
+    padding: 0;
+
+}
+.about-section .flex-item p {
+    text-align: justify;
+    margin: 10px 30px 30px 30px; /* Adjust the margin values as needed */
+    padding: 20px;
+}
+
+/* Add the following styles to your existing CSS code */
+
+.card-section {
+    background-color: rgba(254, 165, 1, 1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 23%; /* Adjust the width as needed */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.card:hover {
+    background-color: #FF0000; /* Red color on hover */
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+
+/* Add the following styles to your existing CSS code */
+
+.card-section {
+    background-color: rgba(254, 165, 1, 1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Adjust this property to add space between cards */
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 23%; /* Adjust the width as needed */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.card:hover {
+    background-color: #FF0000; /* Red color on hover */
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+/* Update the existing styles for the card-section and card */
+
+.card-section {
+    background-color: rgba(254, 165, 1, 1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around; /* Change to space-around to distribute space around cards */
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 23%; /* Adjust the width as needed */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.card:hover {
+    background-color: #FF0000; /* Red color on hover */
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 18%; /* Decreased width */
+    height: 300px; /* Increased height */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.card-section {
+    background-color: rgba(254, 165, 1, 1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around; /* Change to space-around to distribute space around cards */
+}
+
+.card:hover {
+    background-color: #FF0000; /* Red color on hover */
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+
+/* Your existing CSS code */
+
+/* Your existing CSS code */
+
+
+/* Add the following styles to your existing CSS code */
+
+.background-section {
+    background-image: url('stats-bg.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for better visibility */
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item {
+    flex: 1;
+    text-align: center;
+}
+
+.flex-item p {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+/* Add the following styles to your existing CSS code */
+
+.background-section .flex-item p {
+    font-size: 30px; /* Adjust the font size as needed */
+    color: white; /* Text color set to white */
+    font-weight: bold; /* Make the text bold */
+}
+/* Add the following styles to your existing CSS code */
+
+.menu-section {
+    text-align: center;
+    padding: 20px;
+    background-color: white; /* Adjust the background color as needed */
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-description {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: grey; /* Text color set to white */
+}
+
+.menu-title {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Default text color */
+}
+
+.menu-red-text {
+    color: #FF0000; /* Red color for "Lorem_Ipsum menu" */
+}
+/* Add the following styles to your existing CSS code */
+.flex-item h4 {
+    justify-content: space-around;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px; /* Decrease the margin between h4 and p */
+    text-align: center; /* Center-align the h4 text */
+}
+
+.flex-item p {
+    color: #555;
+}
+
+
+.our_menu {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.our_menu h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 20px;
+    white-space: wrap;
+    min-width: 100%;
+}
+
+.Breakfast,.Lunch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 50px;
+    position: relative;
+}
+
+.starter_overlay {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.45); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.Breakfast_overlay{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.45); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.Lunch_overlay{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.45); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.menu_bar {
+    background-color: #f5f3f3; /* Adjust the background color */
+    color: rgb(7, 7, 7); /* Adjust the text color */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+}
+.menu .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(5, 5, 5, 0.16);
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.menu_bar h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.menu_bar a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    transition: color 0.3s, transform 0.3s;
+}
+
+.menu_bar a:hover {
+    color: #f04343;
+    transform: scale(1.3);
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    background-color: rgb(163, 163, 36);
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 20%;
+    padding: 20px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.reviews::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar width */
+}
+
+.revscr ul{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.revscr li{
+    list-style: none;
+}
+.revscr a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    transition: color 5s, transform 0.1s;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 100%;
+}
+.revscr a:hover{
+    color: #060606;
+    /* transform: scale(1); */
+}
+
+.revscr li a:hover {
+    font-size: 1em;
+    text-decoration: underline; 
+}
+
+.parent_box_rev{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(163, 163, 36);
+    margin: 0;
+    align-items: center;
+}
+.parent_box_rev h1{
+    padding: 20px;
+    text-align: center;
+}
+.review {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(163, 163, 36);
+    /* border: 1px solid rgba(5, 5, 5, 0.16); */
+    min-width: 100%; /* Set the minimum width of each review to 100% of the container */
+}
+
+.review img {
+    width: 20%;
+    height: 10%;
+    border-radius: 100%;
+}
+
+.all_events{
+    text-align: center;
+}
+/* .all_events.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+} */
+#Events1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    gap: 10%;
+}
+
+.Events {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    color: white;
+    background-size: cover;
+    min-width: 100%;
+}
+.event {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.event.one{
+    background-image: url('./images/gallery-1.jpg');
+}
+.event.two{
+    background-image: url('./images/gallery-2.jpg');
+}
+.event.three{
+    background-image: url('./images/gallery-3.jpg');
+}
+.event_overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: fit-content;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.639);
+    color: white;
+    padding: 10px;
+}
+.event_overlay div{
+    width: 100%;
+}
+
+.chef_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10%;
+    /* padding-top: 5%; */
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(163, 163, 36);
+}
+.chef_txt h1{
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 0px;
+    text-align: center;
+}
+.chefs {
+    display: flex;
+    margin-top: 2%;
+    gap: 20px;
+}
+.chef.one {
+    /* background-image: url('./images/chefs/chefs-1.jpg'); */
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.border{
+    position: relative;
+    margin-top: -20%;
+}
+.chef_overlay{
+    background-color: #ffff;
+    padding: 20px;
+    margin-top: -2%;
+}
+
+.chef.one:hover{
+    transform: scale(1.08);
+}
+.chef.two:hover{
+    transform: scale(1.08);
+}
+.chef.three:hover{
+    transform: scale(1.08);
+}
+
+.BookAtable{
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.book_table {
+    display: flex;
+    background-color: aliceblue;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.book_table_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    padding: 5%;
+}
+.reservation{
+    width: 50%;
+}
+.book_table_form form{
+    display: flex; 
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.book_table_form input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block; /* Add this property */
+}
+.book_table_form form .row1{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.book_table_form form .row2{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.book_table_form textarea{
+    width: 100%;
+    height: 30%;
+}
+.book_table_form button{
+    background-color: #ef2424;
+    border: none;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f7f5f5;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block; /* Add this property */
+}
+
+.scrl_event ul{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+.scrl_event li{
+    list-style: none;
+    transition: transform 0.3s ease;
+    transform: scale(1.6);
+}
+.scrl_event{
+    height: fit-content;
+    margin: 0;
+}
+
+.scrl_event li:hover{
+    transform: scale(2);
+}
+
+
+@media screen and (max-width: 1000px) {
+    body{
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .reviews {
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 1;
+        min-width: 100%;
+        overflow-x: hidden;
+        scroll-snap-type: x mandatory;
+    }
+    
+    .review{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .review img{
+        width: 50%;
+        height: 10%;
+    }
+
+    nav {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        overflow: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header button {
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .firstSec {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .About_us {
+        diaplay: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+    }
+    .menu::-webkit-scrollbar {
+        width: 50px; /* Remove scrollbar width */
+    }
+    .more::-webkit-scrollbar {
+        width: 50px; /* Remove scrollbar width */
+    }
+    .nav::-webkit-scrollbar {
+        width: 50px; /* Remove scrollbar width */
+    }
+    .About_us .content {
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .About_us h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .About_us_img{
+        width: 100%;
+    }
+    .About_us p {
+        font-size: 14px;
+        margin-bottom: 15px;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+    }
+
+    .more{
+        overflow: auto;
+    }
+    .gap-overlay{
+        flex-direction: row;
+        justify-content: center;
+        overflow: auto;
+    }
+    .gap-text{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .About_us_text{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .About_us_text p {
+        font-size: 12px;
+    }
+
+    .gap {
+        height: 30vh;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .gap-text {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .gap-text p {
+        font-size: 16px;
+        /* margin-right: 10px; */
+    }
+
+    .our_menu{
+        margin-top: 30px;
+    }
+
+    .menu {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu .Breakfast,
+    .menu .Lunch {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu .Breakfast .item1,
+    .menu .Breakfast .item2,
+    .menu .Breakfast .item3,
+    .menu .Lunch .item4,
+    .menu .Lunch .item5,
+    .menu .Lunch .item6 {
+        width: 100%;
+    }
+    .secondcol img{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
